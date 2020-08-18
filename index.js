@@ -13,7 +13,7 @@ function handleClick(e) {
 function greet(time) {
   const hour = parseInt(time ,10) ;
   if(hour < 12) return 'Good Morning' ;
-  if(hour > 12) return 'Good Evening' ;
+  if(hour > 17) return 'Good Evening' ;
   
   return 'Good Sfternoon' ;
 }
