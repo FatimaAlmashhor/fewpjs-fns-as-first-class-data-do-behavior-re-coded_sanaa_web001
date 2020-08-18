@@ -10,4 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(time) {
+  if(time % 2 ==)
+}
 /* Write your implementation of displayMessage() */
