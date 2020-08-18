@@ -3,7 +3,7 @@
 document.querySelector("button").addEventListener("click", handleClick);
 
 function handleClick(e) {
-  const timeString = document.getElementById('time').value
+  const timeString = document.getElementById('time').value ; 
   displayMessage(greet(timeString))
 }
 
@@ -11,6 +11,12 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  if(time % 2 ==)
+  const hour = parseInt(time ,10) ;
+  if(hour < 12) return 'Good Morning' ;
+  if(hour > 12) return 'Good Evening' ;
+  return 'Good Sfternoon' ;
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(massage) {
+  
+}
